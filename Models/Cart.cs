@@ -1,0 +1,27 @@
+// using System;
+// using System.Collections.Generic;
+// using System.ComponentModel.DataAnnotations;
+// using System.Linq;
+// using System.Threading.Tasks;
+// using ShoppingCart.ViewModel.Get;
+
+// namespace ShoppingCart.Models
+// {
+//  public class Cart
+//     { 
+//         public long Id { get; set; }
+//         public int UserId { get; set; }
+//         public virtual User? User { get; set; }
+//         public int ProductId { get; set; }
+//         public string? Name { get; set; }
+//         [Required]
+//         public string? Description { get; set; }
+//         [Range (5, 100000)]
+//         public decimal Price { get; set; }
+//         public string? ImageURL { get; set; }
+//         public string? SubCategory { get; set; }
+
+//         [MaxLength(200)]
+//         public string OwnerADObjectId { get; set; } = "Admin";
+//     }
+// }
